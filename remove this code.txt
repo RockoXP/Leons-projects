@@ -1,0 +1,58 @@
+.portofolio .portofolio-img img 
+{
+    max-width: 100%;
+    height: auto;
+}
+.portofolio .container
+{
+    padding-bottom: 40px;
+}
+.portofolio .portofolio-heading
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.portofolio .portofolio-heading h2
+{
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+.portofolio .portofolio-item-inner
+{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 15px;
+}
+.portofolio .portofolio-item-inner h3 
+{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--text-black-900);
+}
+.portofolio .portofolio-img 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between images */
+}
+.portofolio .portofolio-item-inner .portofolio-img 
+{
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    gap: 15px;
+}
+.portofolio .portofolio-item-inner .portofolio-img img
+{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portofolio .portofolio-item-inner .portofolio-img img:hover 
+{
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
